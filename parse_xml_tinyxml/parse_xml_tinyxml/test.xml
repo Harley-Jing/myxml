@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config version="1.0" xmlns="http://www.ipc.com/ver10">
+	<recTypeCaps type="list" count="5">
+		<itemType type="string" maxLen="20"/>
+		<item>manual</item>
+		<item>schedule</item>
+		<item>motion</item>
+		<item>sensor</item>
+		<item>intel detection</item>
+	</recTypeCaps>
+</config>
