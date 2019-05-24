@@ -49,7 +49,7 @@ void ReadXML2File(const char* pXmlFileName)
 
 	XMLDocument *pMyDocument = new XMLDocument();
 
-	if (!pMyDocument->LoadFile(pXmlFileName))
+	if (pMyDocument->LoadFile(pXmlFileName))
 	{
 		return;
 	}
